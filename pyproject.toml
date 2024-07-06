@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nvmlfan"
+version = "0.1.0"
+description = "Nvidia GPU fan control with nvidia-ml-py."
+authors = ["ypei <ypei@utexas.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nvidia-ml-py = "^12.555.43"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
