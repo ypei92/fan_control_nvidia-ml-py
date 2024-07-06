@@ -4,8 +4,7 @@ import pathlib
 
 # Directory structure
 REPO_NAME = "fan_control_nvidia-ml-py"
-#WORK_DIR = os.path.join(pathlib.Path.home(), '.' + REPO_NAME)
-WORK_DIR = os.path.join(pathlib.Path.home(), 'scripts/' + REPO_NAME)
+WORK_DIR = os.path.join(pathlib.Path.home(), '.' + REPO_NAME)
 LOG_DIR = os.path.join(WORK_DIR, "logs")
 PROFILE_DIR = os.path.join(WORK_DIR, "profiles")
 DEFAULT_PROFILE_FILE = os.path.join(PROFILE_DIR, "default.yml")

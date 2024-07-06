@@ -1,0 +1,11 @@
+[Unit]
+Description=NVIDIA GPU fan controller with nvidia-ml-py
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/path/to/your/python path/to/fan_control_nvidia-ml-py/src/main.py
+
+[Install]
+WantedBy=multi-user.target
