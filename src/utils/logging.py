@@ -39,8 +39,8 @@ def init_root_logger(is_debug_mode: bool = False) -> None:
 
 
 def get_logger(name: str, log_level: int) -> logging.Logger:
-    """Get a logger using a specific name and set verbosity level before return."""
-    logger = logging.getLogger(name)
-    logger.setLevel(log_level)
+  """Get a logger using a specific name and set verbosity level before return."""
+  logger = logging.getLogger(name)
+  logger.setLevel(log_level)
 
-    return logger
+  return logger

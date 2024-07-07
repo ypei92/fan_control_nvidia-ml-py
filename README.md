@@ -63,5 +63,5 @@ sudo systemctl start nvidia-gpu-fan-control
 ```
 
 ## Define Profile
-The default profile can be found at `profiles/default.yml`. Define your own profile is straightforward and load with --profile.
+The default profile can be found at `profiles/default.yml`. Define your own profile and load with --profile.
 <img src="https://github.com/ypei92/fan_control_nvidia-ml-py/assets/16912644/8907d5c3-9b1c-44d7-9df4-58c421e85e47" width="500">
